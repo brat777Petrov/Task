@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-size: 16px;
+  background-color: green;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.UserTasks li {
+  cursor: pointer;
+}
+
+li {
+  margin-bottom: 5px;
+
+  text-align: left;
+  font-weight: 400;
+  list-style: none;
+}
+
+input {
+  height: 30px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+p {
+  padding: 0;
+  margin: 0 10px;
+}
+
+button {
+  /* width: 150px; */
+  height: 30px;
+
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.App {
+
+  margin: 0 auto;
+  background-color: grey;
+}
+/* ********* Authorization *****/
+.Authorization {
+  width: 100vw;
+  height: 100vh;
+
+  text-align: center;
+  font-weight: bold;
+  background-color: grey;
+}
+
+.Authorization__title,
+.AddNewUser__title {
+  position: relative;
+  top: 32%;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.Authorization__form,
+.AddNewUser__form {
+  position: relative;
+  top: 35%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.Authorization__form fieldset {
+  width: 40vw;
+  height: 100px;
+  padding-top: 10px;
+}
+
+.Authorization__btns {
+  position: relative;
+  top: 40%;
+}
+
+.Authorization__btn_addUser,
+.AddNewUser__btn_addUser {
+  margin-left: 20px;
+}
+
+/* ************* AddNewUser ****************/
+
+.AddNewUser {
+  width: 100vw;
+  height: 100vh;
+
+  text-align: center;
+  font-weight: bold;
+
+  background-color: green;
+}
+
+.AddNewUser__title {
+  top: 22%;
+}
+
+.AddNewUser__form {
+  top: 25%;
+}
+
+.AddNewUser__form fieldset {
+  width: 40vw;
+
+  padding-top: 10px;
+}
+
+.AddNewUser__btns {
+  position: relative;
+  top: 32%;
+}
+
+/* ********** UserTasks ******** */
+.UserTasks {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  width: 51vw;
+  height: 100vh;
+
+  font-size: 22px;
+  font-weight: 500;
+  color: yellow;
+  background-color: green;
+}
+
+.UserTasks_title, .taskDetail_title {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.UserTasks_panel {
+
+  width: 45vw;
+  margin: 20px;
+  margin-bottom: 100px;
+
+  border: 1px solid black;
+}
+
+.addTask_btn {
+  position: absolute;
+  left: 150px;
+}
+
+.taskDetail,
+.addTask {
+  float: right;
+  width: 47vw;
+  height: 100vh;
+
+  
+  margin-top: -7px;
+  padding-top: 50px;
+
+  font-size: 22px;
+  font-weight: 500;
+  color: yellow;
+  background-color: blue;
+}
+
+.black {
+  font-weight: bold;
+  color: black;
+}
+
+.yellow {
+  font-weight: bold;
+  padding: 2px;
+  border: 1px solid yellow;
+  color: yellow;
+}
+
+.return {
+  margin-left: 20px;
+}
+
+.AddNewUser__complete {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  margin: 0 auto;
+  font-size: 40px;
+  color: yellow;
+}
